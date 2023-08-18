@@ -50,12 +50,13 @@ class MergeSort {
             }
         }
         
-        // check for single element
+        // check for single element and copy the arr1 to arr3
         while(p1 < nums1.length) {
             nums3[p3] = nums1[p1];
             p3++;
             p1++;
         }
+        // check for single element and copy the arr2 to arr3
         while(p2 < nums2.length) {
             nums3[p3] = nums2[p2];
             p3++;
